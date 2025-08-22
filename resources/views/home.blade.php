@@ -12,7 +12,7 @@
 @section('content')
     <div class="w-100 vh-100 sticky-top bg-light d-flex shadow-lg">
         <div class="col-6 pt-5" style="padding-left: 6rem;">
-            <h1>What We Do</h1>
+            <h1>What We Do Branching</h1>
         </div>
         <div class="col-6 shadow-lg">
             <img class=" object-fit-cover w-100" src="{{ asset('images/IMG_20230807_231257.jpg') }}" alt="">
