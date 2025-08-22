@@ -1,0 +1,22 @@
+// Color
+$primary:   #686554;
+$secondary: #727075;
+
+// Color End
+
+// Fonts
+$font-family-sans-serif: 'Raleway', sans-serif !default;
+// Fonts End
+
+@import 'bootstrap/scss/_functions';
+@import 'bootstrap/scss/_variables';
+
+// Custom Var
+$custom-colors: (
+    "tertiary": #72474E
+);
+// Custom Var End
+
+$theme-colors:map-merge($custom-colors, $theme-colors);
+
+@import 'bootstrap/scss/bootstrap';
