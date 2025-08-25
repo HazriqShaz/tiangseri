@@ -3,7 +3,7 @@
 @section('bg-content')
     <div class="position-relative flex-grow-1 overflow-auto d-flex flex-column justify-content-end">
         <div class="col-6 p-4">
-            <h1 class="text-white">Tiang Seri Design</h1>
+            <h1 class="text-white ">TIANG SERI DESIGN</h1>
             <h5 class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit facilis magnam consectetur repudiandae consequuntur reprehenderit nemo, odit nisi unde assumenda obcaecati aliquam deserunt quod vitae corporis labore perspiciatis esse quam?</h5>
         </div>
     </div>
@@ -12,7 +12,7 @@
 @section('content')
     <div class="w-100 vh-100 sticky-top bg-light d-flex shadow-lg">
         <div class="col-6 pt-5" style="padding-left: 6rem;">
-            <h1>What We Do Branching</h1>
+            <h1 class=" display-1">What We Do Branching</h1>
         </div>
         <div class="col-6 shadow-lg">
             <img class=" object-fit-cover w-100" src="{{ asset('images/IMG_20230807_231257.jpg') }}" alt="">

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{config('app.name', 'Laravel')}}</title>
+    <title>{{config('app.name')}}</title>
     @vite(['resources/css/app.css', 'resources/sass/app.scss', 'resources/js/app.js'])
 </head>
 <body class="overflow-x-hidden">

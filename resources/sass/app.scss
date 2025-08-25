@@ -1,12 +1,24 @@
-// Color
+// Custom Color
 $primary:   #686554;
 $secondary: #727075;
 
-// Color End
+// Custom Color End
 
-// Fonts
-$font-family-sans-serif: 'Raleway', sans-serif !default;
-// Fonts End
+// Custom Fonts
+$font-family-sans-serif: 'Switzer-Regular', sans-serif !default;
+
+h1 {
+    font-family: 'Switzer-Extrabold', sans-serif;
+}
+
+h2, h3, h4, h5 {
+    font-family: 'Switzer-Bold', sans-serif;
+}
+
+li {
+    font-family: 'Switzer-Extralight', sans-serif;
+}
+// Custom Fonts End
 
 @import 'bootstrap/scss/_functions';
 @import 'bootstrap/scss/_variables';
@@ -20,3 +32,4 @@ $custom-colors: (
 $theme-colors:map-merge($custom-colors, $theme-colors);
 
 @import 'bootstrap/scss/bootstrap';
+@import 'switzer';
