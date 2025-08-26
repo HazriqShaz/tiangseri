@@ -1,6 +1,6 @@
 /* Background Image Behind Navbar */
 .bg-img {
-    background-image: url('../../public/images/bgsso.jpg');
+    background-image: url('../../public/images/IMG20231202135337.jpg');
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -11,3 +11,20 @@
     z-index: -10;
 }
 /* Background Image Behind Navbar End*/
+
+/* Overlays */
+.bg-overlay {
+    border-image: fill 1 linear-gradient(0deg,rgba(0, 0, 0, 0.8) 0%, rgba(154, 109, 50, 0.2) 50%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.overlay {
+    border-image: fill 1 linear-gradient(90deg,rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.2) 30%);
+
+}
+/* Overlays End */
+
+.nowrap {
+    white-space: nowrap;
+}
+
+

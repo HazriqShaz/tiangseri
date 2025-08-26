@@ -9,7 +9,7 @@
 <body class="overflow-x-hidden">
     <section class="vw-100 vh-100 sticky-top">
         <div class="position-relative w-100 h-100 d-flex flex-column">
-            <div class="bg-img"></div>
+            <div class="bg-img bg-overlay"></div>
             @include('layouts.nav')
             @yield('bg-content')
         </div>

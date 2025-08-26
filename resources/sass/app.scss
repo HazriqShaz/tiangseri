@@ -1,6 +1,6 @@
 // Custom Color
 $primary:   #686554;
-$secondary: #727075;
+$secondary: #eee3db;
 
 // Custom Color End
 
@@ -15,17 +15,32 @@ h2, h3, h4, h5 {
     font-family: 'Switzer-Bold', sans-serif;
 }
 
-li {
+li, .extra-light {
     font-family: 'Switzer-Extralight', sans-serif;
 }
+
+.italic {
+    font-family: 'Switzer-Thinitalic', sans-serif;
+}
+
+.light {
+    font-family: 'Switzer-Light', sans-serif;
+}
+
+.regular {
+    font-family: 'Switzer-Regular', sans-serif;
+}
+
 // Custom Fonts End
 
 @import 'bootstrap/scss/_functions';
 @import 'bootstrap/scss/_variables';
+@import "bootstrap-icons/font/bootstrap-icons.css";
 
 // Custom Var
 $custom-colors: (
-    "tertiary": #72474E
+    "tertiary": #312f21,
+    "quartary": #535143
 );
 // Custom Var End
 
