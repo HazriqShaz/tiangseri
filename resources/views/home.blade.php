@@ -56,13 +56,13 @@
     <div class="d-block w-100 vh-100 sticky-top d-lg-none shadow-lg">
         <div class="position-absolute top-0 start-0 w-100 h-100 z-2">
             <div class="h-100 d-flex flex-column justify-content-center ps-3">
-                <h2 class=" display-3 text-secondary">
+                <h2 class=" display-4 text-secondary">
                     BUILDING HOMES,
                     <br>
                     DESIGNING DREAMS
                 </h2>
                 <br>
-                <h2 class="display-5 text-secondary">
+                <h2 class="display-6 text-secondary">
                     Services We Provide
                 </h2>
                 <span class="text-white-50 h4 light">

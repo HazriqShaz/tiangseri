@@ -1,7 +1,7 @@
 // Custom Color
 $primary:   #686554;
 $secondary: #eee3db;
-$gradient: linear-gradient(90deg,rgba(104, 101, 84, 1) 0%, rgba(105, 110, 88, 1) 50%, rgba(104, 120, 95, 1) 100%);
+$gradient: linear-gradient(90deg,rgba(104, 101, 84, 1) 0%, rgba(74, 71, 55, 1) 80%);
 // Custom Color End
 
 // Custom Fonts
@@ -45,6 +45,16 @@ $custom-colors: (
 // Custom Var End
 
 $theme-colors:map-merge($custom-colors, $theme-colors);
+
+@mixin smooth-gradient($main-gradient) {
+  background-image:
+    $main-gradient,
+    radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(0,0,0,.0001) 30%, rgba(0,0,0,.001) 60%, rgba(0,0,0,.005) 100%);
+}
+
+.gradient {
+  @include smooth-gradient($gradient);
+}
 
 @import 'bootstrap/scss/bootstrap';
 @import 'switzer';

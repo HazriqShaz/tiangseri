@@ -22,7 +22,7 @@
 }
 
 .about-mobile-overlay {
-    border-image: fill 1 linear-gradient(90deg,rgba(0, 0, 0, 0.8) 10%, rgba(154, 109, 50, 0.2) 50%, rgba(0, 0, 0, 0.5) 100%);
+    border-image: fill 1 linear-gradient(90deg,rgba(0, 0, 0, 0.7) 10%, rgba(0, 0, 0, 0.3) 100%);
 }
 
 .carousel-overlay {
