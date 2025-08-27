@@ -1,7 +1,7 @@
 // Custom Color
 $primary:   #686554;
 $secondary: #eee3db;
-
+$gradient: linear-gradient(90deg,rgba(104, 101, 84, 1) 0%, rgba(105, 110, 88, 1) 50%, rgba(104, 120, 95, 1) 100%);
 // Custom Color End
 
 // Custom Fonts
@@ -40,7 +40,7 @@ li, .extra-light {
 // Custom Var
 $custom-colors: (
     "tertiary": #312f21,
-    "quartary": #535143
+    "quartary": #535143,
 );
 // Custom Var End
 

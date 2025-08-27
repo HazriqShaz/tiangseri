@@ -6,16 +6,15 @@
     <title>{{config('app.name')}}</title>
     @vite(['resources/css/app.css', 'resources/sass/app.scss', 'resources/js/app.js'])
 </head>
-<body class="overflow-x-hidden">
-    <section class="vw-100 vh-100 sticky-top">
+<body class="overflow-x-hidden bg-gradient">
+    <section class="w-100 vh-100 sticky-top">
         <div class="position-relative w-100 h-100 d-flex flex-column">
-            <div class="bg-img bg-overlay"></div>
             @include('layouts.nav')
-            @yield('bg-content')
+            @yield('header')
         </div>
     </section>
     
-    <section class="vw-100">
+    <section class="w-100">
         @yield('content')
     </section>
 </body>

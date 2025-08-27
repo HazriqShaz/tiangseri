@@ -2,13 +2,13 @@
     <div class="container-fluid p-0">
         <div class=" d-none d-md-flex col-5 justify-content-end pt-2">
             <ul class="navbar-nav">
-                <li class="me-5"><a class="nav-link text-secondary" href="#">Home</a></li>
+                <li class="me-5"><a class="nav-link text-secondary" href="{{ route('home') }}">Home</a></li>
 
                 <li class=""><a class="nav-link text-secondary" href="#">About</a></li>
             </ul>
         </div>
         <div class="col-12 col-md-2 d-flex justify-content-center">
-            <a class="" href="#">
+            <a class="" href="{{ route('home') }}">
                 <svg height="80"
                     viewBox="0 0 408.000000 612.000000" preserveAspectRatio="xMidYMid meet">
 
@@ -57,16 +57,16 @@ l0 207 -934 0 c-1018 0 -1100 3 -1200 49 -130 59 -181 138 -174 270 8 133 75
         </div>
         <div class="col-12 d-flex d-md-none justify-content-center">
             <ul class="navbar-nav text-center row flex-row pt-3">
-                <li class="col-3"><a class="nav-link text-secondary" href="#">Home</a></li>
+                <li class="col-3"><a class="nav-link text-secondary" href="{{ route('home') }}">Home</a></li>
                 <li class="col-3"><a class="nav-link text-secondary" href="#">About</a></li>
                 <li class="col-3"><a class="nav-link text-secondary" href="#">Portfolio</a></li>
-                <li class="col-3"><a class="nav-link text-secondary" href="#">Contact</a></li>
+                <li class="col-3"><a class="nav-link text-secondary" href="{{ route(name: 'contact') }}">Contact</a></li>
             </ul>
         </div>
         <div class="d-none d-md-flex col-5 justify-content-start pt-2">
             <ul class="navbar-nav">
                 <li class="me-5"><a class="nav-link text-secondary" href="#">Portfolio</a></li>
-                <li class=""><a class="nav-link text-secondary" href="#">Contact</a></li>
+                <li class=""><a class="nav-link text-secondary" href="{{ route(name: 'contact') }}">Contact</a></li>
             </ul>
         </div>
     </div>
