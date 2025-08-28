@@ -15,3 +15,7 @@ Route::get('/home', function () {
 Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
+
+Route::get('/akif', function () {
+    return view('akif');
+});

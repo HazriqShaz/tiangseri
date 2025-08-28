@@ -58,7 +58,9 @@
                 Working Hours
             </h3>
             <p class="h5 light">
-                Weekdays : 8:00 AM - 5:00 PM
+                Weekdays : 
+                <br>
+                8:00 AM - 5:00 PM
             </p>
             <p class="extra-light">
                 Closed on weekends

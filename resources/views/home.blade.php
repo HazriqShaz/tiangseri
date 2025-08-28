@@ -56,7 +56,7 @@
     <div class="d-block w-100 vh-100 sticky-top d-lg-none shadow-lg">
         <div class="position-absolute top-0 start-0 w-100 h-100 z-2">
             <div class="h-100 d-flex flex-column justify-content-center px-4">
-                <div class="glass p-3" style="border-bottom-right-radius: 20px; border-left-left-radius: 20px;">
+                <div class="glass p-3" style="border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;">
                     <h2 class=" display-4 text-secondary">
                         BUILDING HOMES,
                         <br>
