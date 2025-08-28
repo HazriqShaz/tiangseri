@@ -1,7 +1,7 @@
 // Custom Color
-$primary:   #686554;
+$primary:   #c37923;
 $secondary: #eee3db;
-$gradient: linear-gradient(90deg,rgba(104, 101, 84, 1) 0%, rgba(74, 71, 55, 1) 80%);
+$gradient: linear-gradient(90deg,rgba(104, 101, 84, 1) 0%, rgba(133, 130, 112, 1) 35%, rgba(163, 160, 141, 1) 100%);
 // Custom Color End
 
 // Custom Fonts
@@ -29,6 +29,10 @@ li, .extra-light {
 
 .regular {
     font-family: 'Switzer-Regular', sans-serif;
+}
+
+.extra-bold-italic {
+    font-family: 'Switzer-ExtraboldItalic', sans-serif;
 }
 
 // Custom Fonts End

@@ -1,15 +1,15 @@
 <div class="d-flex flex-column justify-content-evenly h-100">
     <div class="flex-grow-1 row py-5 px-5">
         <div class="col-12 col-lg-6 text-secondary">
-            <h3 class=" text-body">
+            <h3 class=" text-secondary">
                 Company
             </h3>
-            <h3>
+            <h3 class="light">
                 SUMBER SETIAMAJU SDN. BHD.
             </h3>
             <p class="h5 light">(1215773A / 201701001623)</p>
             <br>
-            <h3 class=" text-body">
+            <h3 class=" text-secondary">
                 Location
             </h3>
             <p class="h5 light">
@@ -25,7 +25,7 @@
             <br>
         </div>
         <div class="px-lg-0 col-12 col-lg-6 text-secondary">
-            <h3 class=" text-body">
+            <h3 class=" text-secondary">
                 Contacts
             </h3>
             <div class="d-flex col-12">
@@ -54,7 +54,7 @@
                 info@tiangseridesign.com
             </p>
             <br>
-            <h3 class="text-body">
+            <h3 class="text-secondary">
                 Working Hours
             </h3>
             <p class="h5 light">
@@ -79,8 +79,9 @@
                 </a>
             </div>
         </div>
+    
     </div>
-    <footer class="flex-grow-1 px-5 d-flex align-items-end justify-content-start justify-content-lg-end">
-            <p class="italic text-secondary">Hazriq, © 2025 Tiang Seri Design</p>
+    <footer class="px-5 d-flex align-items-end justify-content-start justify-content-lg-end">
+            <p class="italic text-secondary">Hazriq © 2025 Tiang Seri Design</p>
     </footer>
 </div>

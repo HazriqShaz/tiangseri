@@ -6,7 +6,7 @@
     <title>{{config('app.name')}}</title>
     @vite(['resources/css/app.css', 'resources/sass/app.scss', 'resources/js/app.js'])
 </head>
-<body class="overflow-x-hidden bg-gradient">
+<body class="overflow-x-hidden bg-black">
     <section class="w-100 vh-100 sticky-top">
         <div class="position-relative w-100 h-100 d-flex flex-column">
             @include('layouts.nav')

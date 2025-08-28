@@ -11,14 +11,12 @@ class CarouselItem extends Component
     public $active;
     public $image;
     public $label;
-    public $content;
 
-    public function __construct($image, $label, $content, $active = '')
+    public function __construct($image, $label, $active = '')
     {
         $this->active = $active;
         $this->image = $image;
         $this->label = $label;
-        $this->content = $content;
     }
 
     /**

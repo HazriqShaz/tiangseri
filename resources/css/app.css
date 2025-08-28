@@ -23,11 +23,23 @@
 
 .about-mobile-overlay {
     border-image: fill 1 linear-gradient(90deg,rgba(0, 0, 0, 0.7) 10%, rgba(0, 0, 0, 0.3) 100%);
+    
 }
 
 .carousel-overlay {
-    border-image: fill 1 linear-gradient(0deg,rgba(0, 0, 0, 0.8) 0%, rgba(154, 109, 50, 0.2) 50%, rgba(0, 0, 0, 0.5) 100%);
+    border-image: fill 1 linear-gradient(0deg,rgba(0, 0, 0, 0.5) 0%, rgba(154, 109, 50, 0.2) 50%, rgba(0, 0, 0, 0.6) 100%);
 }
+
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(10px);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
 /* Overlays End */
 
 .nowrap {
