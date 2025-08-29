@@ -94,7 +94,7 @@
         <div class="carousel-inner h-100 ">
             <x-carousel-item image="{{ asset('images/puncakalam/IMG20231202135105.jpg') }}" label="Puncak Alam" active="active"/>
             <x-carousel-item image="{{ asset('images/centralpark/IMG20240924145853.jpg') }}" label="Central Park" />
-            <x-carousel-item image="{{ asset('images/nusari/IMG20240924100424.png') }}" label="Nusari Bayu" />
+            <x-carousel-item image="{{ asset('images/nusari/IMG20240924100424.jpg') }}" label="Nusari Bayu" />
         </div>
         <button class="carousel-control-prev" style=" width: 6%;" type="button" data-bs-target="#carouselExampleFade"
             data-bs-slide="prev">
