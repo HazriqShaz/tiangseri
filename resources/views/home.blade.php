@@ -3,7 +3,7 @@
 @section('header')
     <div class="bg-img bg-overlay"></div>
     <div class="position-relative flex-grow-1 overflow-auto d-flex flex-column justify-content-end">
-        <div class="col-10 col-lg-6 p-4">
+        <div class="col-10 col-lg-6 ps-4 pb-5 pb-sm-4">
             <h1 class="text-secondary">
                 TIANG SERI DESIGN
             </h1>
@@ -22,7 +22,7 @@
 
 @section('content')
     <!-- First Content -->
-    <div class="d-none d-lg-flex w-100 vh-100 sticky-top glass d-flex shadow-lg">
+    <div class="content d-none d-lg-flex w-100 vh-100 sticky-top glass d-flex shadow-lg">
         <div class="col-5 h-100 ps-5 pt-5 d-flex flex-column">
             <h2 class=" display-2 text-light nowrap">
                 BUILDING HOMES,
@@ -53,20 +53,20 @@
 
     </div>
     <!-- Mobile -->
-    <div class="d-block w-100 vh-100 sticky-top d-lg-none shadow-lg">
+    <div class="content d-block w-100 vh-100 sticky-top d-lg-none shadow-lg">
         <div class="position-absolute top-0 start-0 w-100 h-100 z-2">
-            <div class="h-100 d-flex flex-column justify-content-center px-4">
-                <div class="glass p-3" style="border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;">
-                    <h2 class=" display-4 text-secondary">
+            <div class="h-100 d-flex flex-column justify-content-center align-items-center px-4">
+                <div class="glass p-3 col h-25" style="border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;">
+                    <h2 class=" display-6 text-white">
                         BUILDING HOMES,
                         <br>
                         DESIGNING DREAMS
                     </h2>
                     <br>
-                    <h2 class="display-6 text-secondary">
+                    <h2 class="text-secondary">
                         Services We Provide
                     </h2>
-                    <span class="text-white-50 h4 light">
+                    <span class="text-white-50 light">
                         <p><i class="bi bi-caret-right-fill text-secondary"></i> Architecture & Interior Design Consultation
                         </p>
                         <p><i class="bi bi-caret-right-fill text-secondary"></i> Residential & Commercial Construction</p>
@@ -74,7 +74,7 @@
                         <p><i class="bi bi-caret-right-fill text-secondary"></i> Home Building & Renovation</p>
                     </span>
                     <br>
-                    <div class="w-auto">
+                    <div class="w-auto text-end">
                         <a href="#" class="btn btn-outline-quartary btm-sm rounded-circle border-0">
                             <i class="bi bi-arrow-up-right-circle display-3 text-secondary"></i>
                         </a>
@@ -89,7 +89,7 @@
     <!-- First Content End -->
 
     <!-- Second Content -->
-    <div id="carouselExampleFade" class="w-100 vh-100 sticky-top shadow-lg carousel carousel-fade slide "
+    <div id="carouselExampleFade" class="content w-100 vh-100 sticky-top shadow-lg carousel carousel-fade slide "
         style=" border-top:1px solid rgba(255, 255, 255, 0.18);">
         <div class="carousel-inner h-100 ">
             <x-carousel-item image="{{ asset('images/puncakalam/IMG20231202135105.jpg') }}" label="Puncak Alam" active="active"/>

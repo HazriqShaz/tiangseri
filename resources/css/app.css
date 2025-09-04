@@ -42,8 +42,19 @@
 
 /* Overlays End */
 
+/* Scroll Snapping */
+html {
+    scroll-snap-type: y proximity;
+}
+
+.content {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+/* Scroll Snapping End */
+
+/* Typography */
 .nowrap {
     white-space: nowrap;
 }
-
-
+/* Typography End */
