@@ -10,33 +10,38 @@
     height: 100%;
     z-index: -10;
 }
+
 /* Background Image Behind Navbar End*/
 
 /* Overlays */
 .bg-overlay {
-    border-image: fill 1 linear-gradient(0deg,rgba(0, 0, 0, 0.8) 0%, rgba(154, 109, 50, 0.2) 50%, rgba(0, 0, 0, 0.8) 100%);
+    border-image: fill 1 linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(154, 109, 50, 0.2) 50%, rgba(0, 0, 0, 0.8) 100%);
 }
 
 .about-overlay {
-    border-image: fill 1 linear-gradient(90deg,rgba(0, 0, 0, 0.6) 0%, rgba(154, 109, 50, 0.2) 50%, rgba(0, 0, 0, 0.4) 100%);
+    border-image: fill 1 linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(154, 109, 50, 0.2) 50%, rgba(0, 0, 0, 0.4) 100%);
 }
 
 .about-mobile-overlay {
-    border-image: fill 1 linear-gradient(90deg,rgba(0, 0, 0, 0.7) 10%, rgba(0, 0, 0, 0.3) 100%);
-    
+    border-image: fill 1 linear-gradient(90deg, rgba(0, 0, 0, 0.7) 10%, rgba(0, 0, 0, 0.3) 100%);
+
 }
 
-.carousel-overlay {
-    border-image: fill 1 linear-gradient(0deg,rgba(0, 0, 0, 0.5) 0%, rgba(154, 109, 50, 0.2) 50%, rgba(0, 0, 0, 0.6) 100%);
+.carousel-overlay-x {
+    border-image: fill 1 linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.6) 100%);
 }
 
-.glass{
+.carousel-overlay-y {
+    border-image: fill 1 linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(154, 109, 50, 0.2) 50%, rgba(0, 0, 0, 0.6) 100%);
+}
+
+.glass {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(10px);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    border:1px solid rgba(255, 255, 255, 0.18);
+    border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
@@ -51,35 +56,55 @@ html {
     scroll-snap-align: start;
     scroll-snap-stop: always;
 }
+
 /* Scroll Snapping End */
 
 /* Typography */
 .nowrap {
     white-space: nowrap;
 }
+
 /* Typography End */
 
 /* Underline Effect */
-.underline{
-  text-decoration: none;
-  position: relative;
-  display: inline-block;
+.underline {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
 }
 
 .underline::after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 2px;
-  bottom: -1px; 
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #c37923;
-  transition: width 0.3s ease; 
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #c37923;
+    transition: width 0.3s ease;
 }
 
 .underline:hover::after,
 .underline:active::after {
-  width: 100%;
+    width: 100%;
 }
+
+.underline-active {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+}
+
+.underline-active::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #c37923;
+}
+
 /* Underline Effect END*/

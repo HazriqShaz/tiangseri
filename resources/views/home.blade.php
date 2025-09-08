@@ -34,21 +34,19 @@
                 Services We Provide
             </h2>
             <span class="text-light h4 light nowrap" style="--bs-text-opacity: .7;">
-                <p><i class="bi bi-asterisk h5 pe-3"></i> Architecture & Interior Design Consultation</p>
-                <p><i class="bi bi-asterisk h5 pe-3"></i> Residential & Commercial Construction</p>
-                <p><i class="bi bi-asterisk h5 pe-3"></i> Kitchen & Bathroom Transformations</p>
-                <p><i class="bi bi-asterisk h5 pe-3"></i> Home Building & Renovation</p>
+                <p><i class="bi bi-asterisk h5 pe-3 text-primary"></i> Architecture & Interior Design Consultation</p>
+                <p><i class="bi bi-asterisk h5 pe-3 text-primary"></i> Residential & Commercial Construction</p>
+                <p><i class="bi bi-asterisk h5 pe-3 text-primary"></i> Kitchen & Bathroom Transformations</p>
+                <p><i class="bi bi-asterisk h5 pe-3 text-primary"></i> Home Building & Renovation</p>
             </span>
-            <br>
-            <div class="w-auto text-end px-5">
-                <a href="#" class="underline text-light d-inline-flex align-items-center extra-light h3 py-2">
+        </div>
+        <div class="col z-n1 position-relative h-100 border-1">
+            <div class="position-absolute top-0 start-0 w-100 h-100 about-overlay d-inline-flex align-items-end justify-content-end px-5 py-4">
+                <a href="#" class="underline text-light d-inline-flex align-items-center extra-light h3">
                     About
                     <i class="ps-2 bi bi-box-arrow-up-right h5"></i>
                 </a>
             </div>
-        </div>
-        <div class="col z-n1 position-relative h-100">
-            <div class="position-absolute top-0 start-0 w-100 h-100 about-overlay"></div>
             <img class=" object-fit-cover w-100 h-100" src="{{ asset('images/IMG20210926132501.jpg') }}" alt="">
         </div>
 
@@ -56,7 +54,7 @@
     <!-- Mobile -->
     <div class="content d-block d-lg-none w-100 vh-100 sticky-top shadow-lg ">
         <div class="position-absolute top-0 start-0 w-100 h-100 z-2 d-flex flex-column justify-content-center align-items-center">
-            <div class="glass p-4 col-10 text-center text-md-start" style="border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;">
+            <div class="glass px-5 py-5 col-10 col-md-7 text-center text-md-start" style="border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;">
                 <h2 class=" text-white">
                     BUILDING HOMES,
                     <br>
@@ -67,11 +65,11 @@
                     Services We Provide
                 </h4>
                 <span class="text-white-50 light text-start d-inline-block">
-                    <p><i class="bi bi-asterisk pe-3 text-secondary"></i> Architecture & Interior Design Consultation
+                    <p><i class="bi bi-asterisk pe-3 text-primary"></i> Architecture & Interior Design Consultation
                     </p>
-                    <p><i class="bi bi-asterisk pe-3 text-secondary"></i> Residential & Commercial Construction</p>
-                    <p><i class="bi bi-asterisk pe-3 text-secondary"></i> Kitchen & Bathroom Transformations</p>
-                    <p><i class="bi bi-asterisk pe-3 text-secondary"></i> Home Building & Renovation</p>
+                    <p><i class="bi bi-asterisk pe-3 text-primary"></i> Residential & Commercial Construction</p>
+                    <p><i class="bi bi-asterisk pe-3 text-primary"></i> Kitchen & Bathroom Transformations</p>
+                    <p><i class="bi bi-asterisk pe-3 text-primary"></i> Home Building & Renovation</p>
                 </span>
                 <br>
                 <div class="w-auto text-end ">

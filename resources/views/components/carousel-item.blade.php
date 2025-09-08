@@ -1,5 +1,6 @@
 <div class="carousel-item {{ $active }} h-100 ">
-    <div class="position-absolute top-0 start-0 w-100 h-100 carousel-overlay"></div>
+    <div class="position-absolute top-0 start-0 w-100 h-100 carousel-overlay-x"></div>
+    <div class="position-absolute top-0 start-0 w-100 h-100 carousel-overlay-y"></div>
     <img src="{{ $image }}" class="object-fit-cover w-100 h-100" alt="..." loading="lazy">
     <div class="carousel-caption text-light text-start start-0 ps-5">
         <h5>{{ $label }}</h5>
