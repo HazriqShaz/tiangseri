@@ -6,11 +6,11 @@
     <title>{{config('app.name')}}</title>
     @vite(['resources/css/app.css', 'resources/sass/app.scss', 'resources/js/app.js'])
 
-    <meta name="description" content="@yield('description', 'Trusted home builder & renovation expert with 20+ years. Tiang Seri Design offers full interior design & carpentry services in Selangor & KL.')">
+    <meta name="description" content="@yield('description', 'Trusted home builder & renovation expert with 20+ years. Tiang Seri Design offers full interior design & carpentry services in Negeri Sembilan, Selangor & KL.')">
     <link rel="icon" href="@yield('favicon', asset('favicon.ico'))">
     
     <meta property="og:title" content="@yield('og:title', 'Tiang Seri Design')">
-    <meta property="og:description" content="@yield('og:description', 'Trusted home builder & renovation expert with 20+ years. Tiang Seri Design offers full interior design & carpentry services in Selangor & KL.')">
+    <meta property="og:description" content="@yield('og:description', 'Trusted home builder & renovation expert with 20+ years. Tiang Seri Design offers full interior design & carpentry services in Negeri Sembilan, Selangor & KL.')">
     <meta property="og:image" content="@yield('og:image', asset('favicon.ico'))">
 </head>
 <body class="overflow-x-hidden bg-black">

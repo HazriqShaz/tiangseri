@@ -2,9 +2,9 @@
     <div class="container-fluid p-0">
         <div class=" d-none d-md-flex col-5 justify-content-end pt-2">
             <ul class="navbar-nav">
-                <li class="me-5"><a class="nav-link text-secondary" href="{{ route('home') }}">Home</a></li>
+                <li class="me-5"><a class="nav-link text-secondary underline" href="{{ route('home') }}">Home</a></li>
 
-                <li class=""><a class="nav-link text-secondary" href="#">About</a></li>
+                <li class=""><a class="nav-link text-secondary underline" href="#">About</a></li>
             </ul>
         </div>
         <div class="col-12 col-md-2 d-flex justify-content-center">
@@ -16,17 +16,17 @@
         </div>
         <div class="col-12 d-flex d-md-none justify-content-center">
             <ul class="navbar-nav text-center row flex-row pt-3">
-                <li class="col-3"><a class="nav-link text-secondary" href="{{ route('home') }}">Home</a></li>
-                <li class="col-3"><a class="nav-link text-secondary" href="#">About</a></li>
-                <li class="col-3"><a class="nav-link text-secondary" href="#">Portfolio</a></li>
-                <li class="col-3"><a class="nav-link text-secondary" href="{{ route(name: 'contact') }}">Contact</a>
+                <li class="col-3"><a class="nav-link text-secondary underline" href="{{ route('home') }}">Home</a></li>
+                <li class="col-3"><a class="nav-link text-secondary underline" href="#">About</a></li>
+                <li class="col-3"><a class="nav-link text-secondary underline" href="#">Portfolio</a></li>
+                <li class="col-3"><a class="nav-link text-secondary underline" href="{{ route(name: 'contact') }}">Contact</a>
                 </li>
             </ul>
         </div>
         <div class="d-none d-md-flex col-5 justify-content-start pt-2">
             <ul class="navbar-nav">
-                <li class="me-5"><a class="nav-link text-secondary" href="#">Portfolio</a></li>
-                <li class=""><a class="nav-link text-secondary" href="{{ route(name: 'contact') }}">Contact</a></li>
+                <li class="me-5"><a class="nav-link text-secondary underline" href="#">Portfolio</a></li>
+                <li class=""><a class="nav-link text-secondary underline" href="{{ route(name: 'contact') }}">Contact</a></li>
             </ul>
         </div>
     </div>
