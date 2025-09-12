@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('title', $pageTitle)
 
 @section('header')
     <div class="bg-img bg-overlay"></div>
@@ -7,11 +8,11 @@
             <h1 class="text-light">
                 TIANG SERI DESIGN
             </h1>
-            <h5 class="text-light">
+            <h5 class="text-secondary">
                 HOME BUILDING & INTERIOR DESIGN SERVICES
                 <br>
                 <span class="text-white-50 light">
-                    Negeri Sembilan / Selangor / Kuala Lumpur
+                    Seremban, Selangor, Kuala Lumpur
                     <br>
                     +60 19 790 1309
                 </span>
@@ -23,6 +24,7 @@
 @section('content')
     <!-- First Content -->
     <div class="content d-none d-lg-flex w-100 vh-100 sticky-top glass d-flex shadow-lg">
+        <div class="position-absolute top-0 start-0 w-100 h-100 behind-glass-overlay z-n1"></div>
         <div class="col-5 h-100 ps-5 pt-5 d-flex flex-column">
             <h2 class=" display-2 text-light nowrap">
                 BUILDING HOMES,
@@ -30,7 +32,7 @@
                 DESIGNING DREAMS
             </h2>
             <br>
-            <h2 class="display-6 nowrap text-light">
+            <h2 class="display-6 nowrap text-secondary">
                 Services We Provide
             </h2>
             <span class="text-light h4 light nowrap" style="--bs-text-opacity: .7;">
@@ -55,7 +57,7 @@
     <div class="content d-block d-lg-none w-100 vh-100 sticky-top shadow-lg ">
         <div class="position-absolute top-0 start-0 w-100 h-100 z-2 d-flex flex-column justify-content-center align-items-center">
             <div class="glass px-5 py-5 col-10 col-md-7 text-center text-md-start" style="border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;">
-                <h2 class=" text-white">
+                <h2 class=" text-light">
                     BUILDING HOMES,
                     <br>
                     DESIGNING DREAMS
@@ -110,6 +112,8 @@
 
     <!-- Third Content -->
     <div class="w-100 h-100 sticky-top glass shadow-lg">
+        <div class="position-absolute top-0 start-0 w-100 h-100 behind-glass-overlay z-n1"></div>
+
         <x-contact-footer />
     </div>
     <!-- Third Content End -->

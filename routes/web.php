@@ -9,11 +9,19 @@ Route::get('/', function () {
 // Redirect End
 
 Route::get('/home', function () {
-    return view('home');
+    $pageTitle = 'Trusted Home Builder & Renovation Expert  in Seremban, Selangor, and KL';
+
+    return view('home', [
+        'pageTitle' => $pageTitle 
+    ]);
 })->name('home');
 
 Route::get('/contact', function () {
-    return view('contact');
+    $pageTitle = 'Contact Us';
+
+    return view('contact', [
+        'pageTitle' => $pageTitle
+    ]);
 })->name('contact');
 
 Route::get('/akif', function () {
